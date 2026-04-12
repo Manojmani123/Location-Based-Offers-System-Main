@@ -1,0 +1,61 @@
+/* Auth form styles */
+.auth-container {
+	max-width: 350px;
+	margin: 60px auto;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+	padding: 2rem 2rem 1.5rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.auth-container h2 {
+	margin-bottom: 1.5rem;
+	color: var(--primary, #4f46e5);
+}
+.auth-input {
+	width: 100%;
+	padding: 0.75rem 1rem;
+	margin-bottom: 1rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	font-size: 1rem;
+	background: #f9fafb;
+	transition: border 0.2s;
+}
+.auth-input:focus {
+	outline: none;
+	border-color: var(--primary, #6366f1);
+}
+.auth-btn {
+	width: 100%;
+	padding: 0.75rem 1rem;
+	background: var(--primary, #6366f1);
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	margin-bottom: 1rem;
+	transition: background 0.2s;
+}
+.auth-btn:disabled {
+	background: #a5b4fc;
+	cursor: not-allowed;
+}
+.auth-error {
+	color: #ef4444;
+	background: #fef2f2;
+	border-radius: 6px;
+	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	text-align: center;
+}
+.auth-container a {
+	color: var(--primary, #6366f1);
+	text-decoration: underline;
+}
+/* Application specific styles not covered by index.css */
