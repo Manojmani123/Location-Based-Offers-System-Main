@@ -17,4 +17,26 @@ The Location-Based Offer System is a web application that delivers personalized 
 - Database:
 - Version Control: Git
 
-## Project Structure
+## How to run?
+- download code file?
+- open in vs code
+-run backend, run admin, run superadmin, run customer
+   -commands
+   1.open terminal
+     -cd backend
+     -npm i
+     -npm run dev
+  2.open terminal
+     -cd admin
+     -npm i
+     -npm run dev
+  3.open terminal
+     -cd customer
+     -npm i
+     -npm run dev
+  4.open terminal
+     -cd superadmin
+     -npm i
+     -npm run dev
+  
+  
