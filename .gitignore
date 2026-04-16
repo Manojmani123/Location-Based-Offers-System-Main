@@ -21,10 +21,4 @@ Thumbs.db
 # VS Code
 .vscode/
 
-# Python (if used)
-__pycache__/
-*.pyc
 
-# Docker
-*.pid
-*.seed
